@@ -1,0 +1,53 @@
+@import "null.css";
+
+* {
+	color: springgreen;
+}
+.preface__text {
+	color: royalblue;
+}
+p {
+	color: green;
+}
+#main {
+	color: skyblue;
+}
+[class*="attr"] {
+	color: red;
+}
+.purpose {
+	color: black;
+}
+p span {
+	color: cornflowerblue;
+}
+span {
+	color: yellow;
+}
+.block p {
+	color: brown;
+}
+.purpose.block {
+	color: brown;
+}
+.purpose p {
+	color: violet;
+}
+.section > p {
+	color: sandybrown;
+}
+.next .next__after {
+	color: darkturquoise;
+}
+.next__after + p {
+	color: purple;
+}
+.next p {
+	color: deeppink;
+}
+a {
+	color: chartreuse;
+}
+.futer a {
+	color: darkblue;
+}
